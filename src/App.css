@@ -1,3 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 16px;
+  background-image: url(images/background.png);
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+h2{
+  border: white 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
 .App {
   text-align: center;
 }
+
+.planetas{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardMissoes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
