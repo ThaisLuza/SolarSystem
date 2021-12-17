@@ -8,8 +8,7 @@ body {
   padding: 16px;
   background-image: url(images/background.png);
   color: white;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -18,7 +17,7 @@ header {
   font-size: 25px;
 }
 
-h2{
+h2 {
   border: white 1px solid;
   border-radius: 8px;
   text-align: center;
@@ -26,22 +25,123 @@ h2{
   padding: 10px;
 }
 
-img{
-  width: 100px;
-  height: 100px;
-}
-
 .App {
   text-align: center;
 }
 
-.planetas{
+.planetas {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.cardMissoes{
+.cardMissoes {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
+  justify-content: space-around;
 }
 
+.planetas div {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.planetas div p {
+  padding-top: 30px;
+}
+
+.Mercúrio {
+  height: 31px;
+  width: 41px;
+  left: 130px;
+  top: 566.0001220703125px;
+  border-radius: 0px;
+}
+
+.Vênus {
+  height: 76px;
+  width: 102px;
+  left: 228px;
+  top: 543px;
+  border-radius: 0px;
+}
+
+.Terra {
+  height: 79px;
+  width: 106px;
+  left: 369px;
+  top: 542px;
+  border-radius: 0px;
+}
+
+.Marte {
+  height: 50px;
+  width: 66px;
+  left: 514px;
+  top: 556.0001220703125px;
+  border-radius: 0px;
+}
+
+.Júpiter {
+  height: 204px;
+  width: 272px;
+  left: 580px;
+  top: 464.0001220703125px;
+  border-radius: 0px;
+}
+
+.Saturno {
+  height: 210.89933437470816px;
+  width: 282.41118930302247px;
+  left: 785px;
+  top: 493.35247802734375px;
+  border-radius: 0px;
+}
+
+.Urano {
+  height: 109px;
+  width: 144px;
+  left: 1068px;
+  top: 522px;
+  border-radius: 0px;
+}
+
+.Netuno {
+  height: 107px;
+  width: 144px;
+  left: 1202px;
+  top: 522px;
+  border-radius: 0px;
+}
+
+.imgPlaneta {
+  height: 211px;
+  display: flex;
+  justify-content: center;
+}
+
+.cartasmissao {
+  border: 1px solid white;
+  height: 328px;
+  width: 354px;
+  left: 164px;
+  top: 943px;
+  border-radius: 10px;
+}
+
+.cartasmissao p{
+  font-size: 30px;
+ text-align: left;
+ 
+ 
+
+}
+
+.cartaTitulo{
+  font-weight: bold !important;
+  border-bottom: white 1px solid !important;
+  text-align:left !important;
+  padding: 20px !important;
+  
+}

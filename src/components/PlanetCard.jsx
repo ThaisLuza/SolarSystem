@@ -10,7 +10,13 @@ class PlanetCard extends Component {
         <p data-testid="planet-name">
           { planetName }
         </p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+        <div className="imgPlaneta">
+          <img
+            className={ planetName }
+            src={ planetImage }
+            alt={ `Planeta ${planetName}` }
+          />
+        </div>
       </div>
     );
   }
