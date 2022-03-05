@@ -1,3 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.png');
+  color: white;
+  font-family: Franklin Gothic Medium , Arial Narrow , Arial , sans-serif;
+  padding: 16px;
+}
+
+header {
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  border: white 1px solid;
+  border-radius: 8px;
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
 .App {
   text-align: center;
+}
+
+.planetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cardMissoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.planetas div {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cartasmissao p {
+  font-size: 30px;
+  text-align: left;
+}
+
+.planetas div p {
+  padding-top: 30px;
+}
+
+.Mercúrio {
+  height: 31px;
+  left: 130px;
+  top: 566px;
+  width: 41px;
+}
+
+.Vênus {
+  height: 76px;
+  left: 228px;
+  top: 543px;
+  width: 102px;
+}
+
+.Terra {
+  height: 79px;
+  left: 369px;
+  top: 542px;
+  width: 106px;
+}
+
+.Marte {
+  height: 50px;
+  left: 514px;
+  top: 556px;
+  width: 66px;
+}
+
+.Júpiter {
+  height: 204px;
+  left: 580px;
+  top: 464px;
+  width: 272px;
+}
+
+.Saturno {
+  height: 210.899px;
+  left: 785px;
+  top: 493.352px;
+  width: 282.411px;
+}
+
+.Urano {
+  height: 109px;
+  left: 1068px;
+  top: 522px;
+  width: 144px;
+}
+
+.Netuno {
+  height: 107px;
+  left: 1202px;
+  top: 522px;
+  width: 144px;
+}
+
+.imgPlaneta {
+  display: flex;
+  height: 211px;
+  justify-content: center;
+}
+
+.cartasmissao {
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 250px;
+  margin-bottom: 50px;
+  width: 354px;
+}
+
+.cartaTitulo {
+  border-bottom: white 1px solid;
+  font-weight: 700;
+  padding: 20px;
+  text-align: left;
 }
